@@ -27,7 +27,7 @@ body {
 
 h1 {
     text-align: center;
-    color: #710303;
+    color: #ffb6c1;
     margin-bottom: 30px;
     font-size: 28px;
     
@@ -36,14 +36,14 @@ h1 {
 
 h2 {
     text-align: center;
-    color: #a50000;
+    color:#E5A3AD;
     margin-bottom: 20px;
     font-size: 24px;
     text-shadow: 1px 1px 3px rgba(255, 0, 0, 0.5);
 }
 
 h3 {
-    color: #ff4444;
+    color: #E5A3AD;
     font-size: 18px;
 }
 
@@ -72,7 +72,7 @@ input[type="text"] {
 
 input[type="text"]:focus {
     outline: none;
-    border-color: #ff4444;
+    border-color:  #ffb6c1;
     box-shadow: 0 0 10px rgba(255, 68, 68, 0.3);
 }
 
@@ -94,7 +94,7 @@ select option {
 .btn {
     width: 100%;
     padding: 15px;
-    background: #6e0000; 
+    background:  #ffb6c1; 
     color: white;
     border: none;
     border-radius: 10px;
@@ -109,7 +109,7 @@ select option {
 
 .btn:hover {
     transform: translateY(-2px);
-    background: #931414; 
+    background:  #ffb6c1; 
     box-shadow: 0 6px 20px rgba(255, 0, 0, 0.4);
 }
 
@@ -144,13 +144,13 @@ select option {
     padding: 20px;
     border-radius: 10px;
     background: #330000;
-    border: 2px solid #ff4444;
+    border: 2px solid  #ffb6c1;
 }
 
 #imposter-names {
     font-size: 18px;
     font-weight: bold;
-    color: #ff4444;
+    color: #ffb6c1;
 }
 
 .artist-item {
@@ -158,7 +158,7 @@ select option {
     background: #1a1a1a;
     margin: 3px 0;
     border-radius: 5px;
-    border-left: 3px solid #ff4444;
+    border-left: 3px solid #ffb6c1;
     font-size: 14px;
     color: #fff;
 }
