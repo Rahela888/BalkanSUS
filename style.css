@@ -14,15 +14,14 @@ body {
     color: #fff;
 }
 
-
 .container {
     max-width: 400px;
     margin: 0 auto;
     background: #2d2d2d;
     border-radius: 20px;
     padding: 30px;
-    box-shadow: 0 10px 30px rgba(255, 0, 0, 0.3);
-    border: 2px solid #8B0000;
+    box-shadow: 0 10px 30px rgba(255, 182, 193, 0.3); /* svijetlo roze */
+    border: 2px solid #ffb6c1; /* svijetlo roze */
 }
 
 h1 {
@@ -30,7 +29,6 @@ h1 {
     color: #ffb6c1;
     margin-bottom: 30px;
     font-size: 28px;
-    
     font-weight: bold;
 }
 
@@ -39,7 +37,7 @@ h2 {
     color:#E5A3AD;
     margin-bottom: 20px;
     font-size: 24px;
-    text-shadow: 1px 1px 3px rgba(255, 0, 0, 0.5);
+    text-shadow: 1px 1px 3px rgba(255, 182, 193, 0.5); /* svijetlo roze */
 }
 
 h3 {
@@ -55,14 +53,14 @@ label {
     display: block;
     margin-bottom: 8px;
     font-weight: 600;
-    color: #ff6666;
+    color: #ffb6c1; /* svijetlo roze */
     font-size: 16px;
 }
 
 input[type="text"] {
     width: 100%;
     padding: 15px;
-    border: 2px solid #540505;
+    border: 2px solid #ffaec9; /* svijetlo roze */
     border-radius: 10px;
     font-size: 16px;
     background: #1a1a1a;
@@ -72,14 +70,14 @@ input[type="text"] {
 
 input[type="text"]:focus {
     outline: none;
-    border-color:  #ffb6c1;
-    box-shadow: 0 0 10px rgba(255, 68, 68, 0.3);
+    border-color:  #ffb6c1; /* svijetlo roze */
+    box-shadow: 0 0 10px rgba(255, 182, 193, 0.3); /* svijetlo roze */
 }
 
 select {
     width: 100%;
     padding: 15px;
-    border: 2px solid #8B0000;
+    border: 2px solid #ffb6c1; /* svijetlo roze */
     border-radius: 10px;
     font-size: 16px;
     background: #1a1a1a;
@@ -94,7 +92,7 @@ select option {
 .btn {
     width: 100%;
     padding: 15px;
-    background:  #ffb6c1; 
+    background:  #ffb6c1;  /* svijetlo roze */
     color: white;
     border: none;
     border-radius: 10px;
@@ -103,21 +101,14 @@ select option {
     cursor: pointer;
     transition: all 0.3s;
     margin-top: 20px;
-    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);
+    box-shadow: 0 4px 15px rgba(255, 182, 193, 0.3); /* svijetlo roze */
     font-family: 'Joti One'
 }
 
 .btn:hover {
     transform: translateY(-2px);
-    background:  #ffb6c1; 
-    box-shadow: 0 6px 20px rgba(255, 0, 0, 0.4);
-}
-
-
-.btn:hover {
-    transform: translateY(-2px);
-    background: linear-gradient(45deg, #ff4444, #ff6666);
-    box-shadow: 0 6px 20px rgba(255, 0, 0, 0.4);
+    background: linear-gradient(45deg, #ffb6c1, #ff9fbc); /* svijetlo roze gradijent */
+    box-shadow: 0 6px 20px rgba(255, 182, 193, 0.4); /* svijetlo roze */
 }
 
 .btn:active {
@@ -130,7 +121,7 @@ select option {
     padding: 20px;
     border-radius: 10px;
     background: #1a1a1a;
-    border: 2px solid #8B0000;
+    border: 2px solid #ffb6c1; /* svijetlo roze */
 }
 
 #role-text {
@@ -143,14 +134,14 @@ select option {
     margin: 20px 0;
     padding: 20px;
     border-radius: 10px;
-    background: #330000;
-    border: 2px solid  #ffb6c1;
+    background: #33001a; /* tamna nijansa svijetlo roze */
+    border: 2px solid  #ffb6c1; /* svijetlo roze */
 }
 
 #imposter-names {
     font-size: 18px;
     font-weight: bold;
-    color: #ffb6c1;
+    color: #ffb6c1; /* svijetlo roze */
 }
 
 .artist-item {
@@ -158,7 +149,7 @@ select option {
     background: #1a1a1a;
     margin: 3px 0;
     border-radius: 5px;
-    border-left: 3px solid #ffb6c1;
+    border-left: 3px solid #ffb6c1; /* svijetlo roze */
     font-size: 14px;
     color: #fff;
 }
@@ -183,12 +174,12 @@ select option {
 }
 
 #artists-list::-webkit-scrollbar-thumb {
-    background: #8B0000;
+    background: #ffb6c1; /* svijetlo roze */
     border-radius: 3px;
 }
 
 #artists-list::-webkit-scrollbar-thumb:hover {
-    background: #ff4444;
+    background: #ff9fbc; /* svijetlo roze */
 }
 
 /* Responsive za telefon */
@@ -213,4 +204,3 @@ select option {
         font-size: 16px;
     }
 }
-
