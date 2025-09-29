@@ -8,7 +8,7 @@ const balkanArtists = [
      "Nives Celzijus", "Ela Jerkovic",
      "Izabela Brnic", "Nugato",
     "Branko cigan sto bude sa marijom vrecom", "Aca Lukas", "Kereta",
-    "Zdravko Čolić", "Dado Polumenta", "Saša Matić", "Janko YT",
+    "Zdravko Čolić",, "Saša Matić", "Janko YT",
     "mmm goca mmm", "Mudja", "Goldenito",
     "Coby", "Voyage", "Breskvica", "Ceca", "Miroslav Škoro", "Halid Bešlić", "Peki", "High5"
     
@@ -221,4 +221,5 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     console.log('BalkanSUS igra učitana!');
 });
+
 
