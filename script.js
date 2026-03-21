@@ -2,15 +2,13 @@ const balkanArtists = [
     "Severina", "Jala Brat", "Buba Corelli", "Tomson", 
     "Jelena Rozga", "Choda", "Baka Prase", "Ceca",
     "Hiljson", "Goca", "Klinac", "Nucci",
-    "Karleuša", "Maja Suput", "Mario Vreco", "Aleksandra prijovic",
+    "Karleuša", "Maja Suput", "Mario Vreco",
     "Devito", "Desingerica", "Seksi", "Popovska",
-    "Nikolija", "Toni Cetinski", "Josipa Lisac", "KARLO Delač Čoka",
+    "Nikolija", "Toni Cetinski", "Josipa Lisac",
      "Nives Celzijus", "Ela Jerkovic",
-     "Izabela Brnic", "Nugato",
-    "Branko cigan sto bude sa marijom vrecom", "Aca Lukas", "Kereta",
-    "Zdravko Čolić",, "Saša Matić", "Janko YT",
-    "mmm goca mmm", "Mudja", "Goldenito",
-    "Coby", "Voyage", "Breskvica", "Ceca", "Miroslav Škoro", "Halid Bešlić", "Peki", "High5"
+     "Nugato","Aca Lukas","Zak houldek", "Mirko dusara","Andrej Plenkovic", "Milanovic","Jakov Jozinovic",
+    "Zdravko Čolić",, "Saša Matić", "Janko YT", "Mudja", "Goldenito",
+    "Coby", "Voyage", "Breskvica", "Ceca", "Miroslav Škoro", "Halid Bešlić","High5"
     
 ];
 
